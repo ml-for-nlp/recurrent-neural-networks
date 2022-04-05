@@ -48,6 +48,7 @@ iter 360, loss: 45.598756
 OK. This looks more like a splatter movie than a cat. Your job is to recover the cat by setting the network parameters right, and doing whatever else might be needed.
 
 
+
 ## Help! My cat does not have paws!
 
 Look at your input data again. Imagine you're the RNN, with the current hyperparameters you are using. What happens when you get to the cat's paws in the data? Can you see what you would have to do to fix the problem?
@@ -79,6 +80,14 @@ Let's now see how well the RNN actually generalises. We'll expand our data with 
 ```
 
 How is sampling impacted? Can you experiment further with different types of cats? (Be creative!) What happens with different sequence lengths? When do things break? 
+
+
+## Optimizing
+
+Work out a strategy to optimize your cat RNN. What evaluation function should you use? How will you integrate it into your code? What can you do about the randomness of the system? 
+
+As always, try to think of a solution that could be implemented automatically. If you are confident, implement it!
+
 
 ## Expand your zoo
 
